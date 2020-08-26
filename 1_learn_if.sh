@@ -36,12 +36,14 @@ echo
 # the usage of read, (( ))
 echo "--- 3. judge the number ---"
 read -p "input your (integer) gratude: " gratude
-if ((gratude > 89 )); then
+if ((gratude < 101 && gratude > 89 )); then
     echo "you get A!"
 elif ((gratude > 79 && gratude < 90)); then
     echo "you get B!"
 elif ((gratude > 69 && gratude < 80)); then
     echo "you get C!"
-else
+elif ((gratude < 70 && gratude > -1)); then
     echo "oh, you get D!"
+else
+    echo "oh, forget to tell you please input the number from 0~100!"
 fi
