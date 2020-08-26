@@ -2,7 +2,7 @@
 
 # ================================================
 # @version  2020/07/29
-# @abstract The script is to learn the shell.
+# @abstract The script is for learning shell.
 # ================================================
 
 # 1. detect your OS version
